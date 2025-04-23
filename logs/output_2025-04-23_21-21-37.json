@@ -1,0 +1,54 @@
+{
+  "run_time": "2025-04-23T21:21:27.772417Z",
+  "total_sites": 9,
+  "passed": [
+    {
+      "url": "https://easyfundingnow.com",
+      "label": "OID 84/88 EFN Main/Partners",
+      "load_time": 1.42
+    },
+    {
+      "url": "https://easyfundingnow.com/google",
+      "label": "OID 85 EFN Google",
+      "load_time": 0.56
+    },
+    {
+      "url": "https://easyfundingnow.com/tt",
+      "label": "OID 86 EFN TikTok",
+      "load_time": 0.36
+    },
+    {
+      "url": "https://easyfundingnow.com/fb",
+      "label": "OID 87 EFN FaceBook",
+      "load_time": 0.51
+    },
+    {
+      "url": "https://easyfundingnow.com/hi",
+      "label": "OID 89 EFN HI",
+      "load_time": 0.48
+    },
+    {
+      "url": "https://gettaxfree.co",
+      "label": "OID 90 GO DRA Main",
+      "load_time": 2.03
+    },
+    {
+      "url": "https://tra.com/rumble",
+      "label": "OID 91 TRA FORM Shaboozey RUMBLE",
+      "load_time": 2.75
+    },
+    {
+      "url": "https://gettaxfree.co/lp2",
+      "label": "OID 92 GO DRA LP2 (Mail)",
+      "load_time": 1.16
+    }
+  ],
+  "failed": [
+    {
+      "url": "https://gettaxfree.colp4",
+      "label": "OID 93 GO DRA LP4",
+      "error": "Message: unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=135.0.7049.114)\nStacktrace:\n0   undetected_chromedriver             0x00000001010832c8 undetected_chromedriver + 6197960\n1   undetected_chromedriver             0x000000010107a8ea undetected_chromedriver + 6162666\n2   undetected_chromedriver             0x0000000100affde0 undetected_chromedriver + 417248\n3   undetected_chromedriver             0x0000000100af6c03 undetected_chromedriver + 379907\n4   undetected_chromedriver             0x0000000100ae71e8 undetected_chromedriver + 315880\n5   undetected_chromedriver             0x0000000100ae8ecd undetected_chromedriver + 323277\n6   undetected_chromedriver             0x0000000100ae756b undetected_chromedriver + 316779\n7   undetected_chromedriver             0x0000000100ae6f8c undetected_chromedriver + 315276\n8   undetected_chromedriver             0x0000000100ae6c8d undetected_chromedriver + 314509\n9   undetected_chromedriver             0x0000000100ae4b3d undetected_chromedriver + 305981\n10  undetected_chromedriver             0x0000000100ae52fa undetected_chromedriver + 307962\n11  undetected_chromedriver             0x0000000100b032b9 undetected_chromedriver + 430777\n12  undetected_chromedriver             0x0000000100b9f915 undetected_chromedriver + 1071381\n13  undetected_chromedriver             0x0000000100b779c2 undetected_chromedriver + 907714\n14  undetected_chromedriver             0x0000000100b9ecdb undetected_chromedriver + 1068251\n15  undetected_chromedriver             0x0000000100b77793 undetected_chromedriver + 907155\n16  undetected_chromedriver             0x0000000100b43b25 undetected_chromedriver + 695077\n17  undetected_chromedriver             0x0000000100b44791 undetected_chromedriver + 698257\n18  undetected_chromedriver             0x000000010103fcc0 undetected_chromedriver + 5921984\n19  undetected_chromedriver             0x0000000101043bb1 undetected_chromedriver + 5938097\n20  undetected_chromedriver             0x000000010101a004 undetected_chromedriver + 5767172\n21  undetected_chromedriver             0x00000001010445db undetected_chromedriver + 5940699\n22  undetected_chromedriver             0x0000000101008704 undetected_chromedriver + 5695236\n23  undetected_chromedriver             0x00000001010680c8 undetected_chromedriver + 6086856\n24  undetected_chromedriver             0x0000000101068290 undetected_chromedriver + 6087312\n25  undetected_chromedriver             0x000000010107a4b1 undetected_chromedriver + 6161585\n26  libsystem_pthread.dylib             0x00007ff8036a818b _pthread_start + 99\n27  libsystem_pthread.dylib             0x00007ff8036a3ae3 thread_start + 15\n"
+    }
+  ],
+  "warnings": []
+}

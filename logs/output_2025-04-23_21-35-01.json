@@ -1,0 +1,46 @@
+{
+  "run_time": "2025-04-23T21:34:51.390937+00:00Z",
+  "total_sites": 3,
+  "passed": [
+    {
+      "url": "https://tra.com",
+      "label": "OID 1 TRA Main",
+      "load_time": 0.55
+    }
+  ],
+  "failed": [
+    {
+      "url": "https://easytaxrelief.com/email",
+      "label": "OID 2 Easy Tax Relief (Verified)",
+      "reason": "JavaScript console errors",
+      "errors": [
+        {
+          "level": "SEVERE",
+          "message": "https://easytaxrelief.com/wp-content/themes/uncode/library/js/ai-uncode.js'%20id='uncodeAI'%20data-home='/'%20data-path='/'%20data-breakpoints-images='258,516,720,1032,1440,2064,2880 - Failed to load resource: the server responded with a status of 404 ()",
+          "source": "network",
+          "timestamp": 1745444097352
+        },
+        {
+          "level": "SEVERE",
+          "message": "https://easytaxrelief.com/email/ - Refused to execute script from 'https://easytaxrelief.com/wp-content/themes/uncode/library/js/ai-uncode.js'%20id='uncodeAI'%20data-home='/'%20data-path='/'%20data-breakpoints-images='258,516,720,1032,1440,2064,2880' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "source": "security",
+          "timestamp": 1745444097744
+        },
+        {
+          "level": "SEVERE",
+          "message": "https://easytaxrelief.com/email/ 1986:13 Uncaught SyntaxError: Unexpected token ';'",
+          "source": "javascript",
+          "timestamp": 1745444098100
+        }
+      ],
+      "load_time": 6.86
+    },
+    {
+      "url": "https://tratoday.com",
+      "label": "OID 5 TRA Today",
+      "reason": "No meaningful content or Gravity Form found",
+      "load_time": 0.41
+    }
+  ],
+  "warnings": []
+}
