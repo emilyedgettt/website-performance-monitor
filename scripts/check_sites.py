@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.options import Options
 import undetected_chromedriver as uc
 
 # Load URLs from urls.json
-with open('urls-test.json', 'r') as f:
+with open('urls.json', 'r') as f:
     sites = json.load(f)
 
 # Setup Selenium browser
